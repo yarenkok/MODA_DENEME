@@ -1,0 +1,52 @@
+name: moda_asistani
+description: "Pinterest AI Moda Asistani Projesi"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # 🔥 Hocanın Firebase şartı
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  # ✨ Yapay Zeka (Pro Modeli Destekli)
+  google_generative_ai: ^0.4.7
+  image_picker: ^1.1.2
+  http: ^1.2.0
+  google_fonts: ^6.1.0
+  geolocator: ^13.0.1
+  firebase_storage: any
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/images/logo.png"
+  android_12:
+    color: "#FFFFFF"
+    image: "assets/images/logo.png"
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png

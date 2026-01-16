@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218772837194",
+    "project_id": "minimalistwardrobe-f0509",
+    "storage_bucket": "minimalistwardrobe-f0509.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218772837194:android:771b7b067b4433928027b3",
+        "android_client_info": {
+          "package_name": "com.example.moda_deneme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9W2cymTfFoePTIrboL15Q0vablreDTJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
